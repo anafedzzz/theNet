@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+#logInBackground{
+    background-image: url("../img/malte-michels-s4wGZw3UuLk-unsplash.jpg");
+    background-size: cover;
+    height: 100vh; width: 100vw;
+
+}
+
+.blur{
+    backdrop-filter: blur(5px);
+    height: 100vh; width: 100vw;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logInBackground section{
+    border-radius: 20px;
+    height: 400px;
+    width: 460px;
+    backdrop-filter: blur(6px);
+    -webkit-box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.88);
+    -moz-box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.88);
+    box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.88);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logInBanner{
+    background-color: rgba(63, 94, 251, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.587);
+    height: 10px;
+    width: 420px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+
+#logInBanner div p{
+    color: white;
+    font-weight: 600;
+}
+
+#logInBackground section form{
+    width: 300px ; height: 350px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#logInBackground section form input{
+    height: 2rem;
+    border-radius: 15px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+#logInBackground section form input::placeholder{
+    color: white;
+}
+
+#logInBackground section form label{
+    color: white;
+}
+
+#logInBackground section form  p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logInBackground section form  p a{
+    color: white;
+}
+
+#logInBackground section form  p a:hover{
+    color: #90A641;
+}
+
+
+#logInBackground section form input[type="submit"]{
+    height: 3rem;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    background-color: rgba(63, 94, 251, 0);
+    font-weight: 600;
+}
+
+#logInBackground section form input[type="submit"]:active{
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* inicio */
+
+#inicioBody{
+    width: 100vw;
+    overflow-x: hidden;
+    background-image:url("../img/malte-michels-s4wGZw3UuLk-unsplash.jpg");
+    background-size: cover;    
+    background-attachment: fixed;
+}
+
+#inicioSect{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto 75vw;
+    grid-template-rows: 100px auto 100px;
+    grid-column-gap: 1vw;
+    grid-row-gap: 23px;
+}
+    
+#inicioSect header{ 
+    grid-area: 1 / 1 / 2 / 4; 
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    -webkit-box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.88);
+    -moz-box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.88);
+    box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.88);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#inicioSect header nav{
+    display: flex;
+    align-items: center;
+}
+
+#inicioSect header nav ul{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    list-style: none;
+    margin-right: 5vw;
+}
+
+#inicioSect header nav ul li{
+    margin: 25px;
+}
+
+#inicioSect header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#inicioSect header nav ul li:hover{
+    text-decoration: underline;
+}
+
+#inicioSect header nav ul li:nth-child(3){
+    border: solid white 1px;
+    padding: 10px;
+    border-radius: 15px;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+#inicioSect header h1{
+    width: 300px;
+    display: flex;
+    justify-content: center; align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+#inicioSect header h1 i{
+    margin-right: 10px;
+}
+
+#inicioSect header #searchBarCont{
+    display: flex;
+    align-content:center;
+    flex-wrap: wrap;
+    width: 45vw;
+}
+
+#inicioSect header #searchBar{
+    margin-left: 40px;
+    height: 2rem; width: 44vw;
+    border-radius: 15px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+#inicioSect header #searchBar::placeholder{
+    color: white;
+    font-size: 2rem;
+}
+
+#inicioSect .div2 { 
+    grid-area: 2 / 1 / 3 / 2; 
+    background: rgb(86,101,92);
+    background: linear-gradient(180deg, rgba(86,101,92,1) 20%, rgba(252,176,69,0) 70%);    border-radius: 0px 20px 20px 0px;
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    padding-left: 35px;
+}
+
+#inicioSect .div2 .profileBanner{
+    width: 270px; height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    position: relative;
+}
+
+#inicioSect .div2 .profile{
+    width: 120px; height: 120px;
+    border-radius: 100%;
+}
+
+#inicioSect .div2 .profileBorder{
+    width: 133px; height: 133px;
+    position: absolute;
+    top: 100px;
+    border-radius: 100%;
+    display: flex; align-items: center; justify-content: center;
+    background-color: #56655C;
+}
+
+#username{
+    margin-top: 80px;
+    color: white;
+}
+
+#name{
+    margin-top: 20px;
+    width: 250px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 30px;
+    border-bottom: solid white 1px;
+    text-align: center;
+}
+
+#inicioSect .div2 nav ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+#inicioSect .div2 nav ul li{
+    padding: 10px;
+    border-radius: 20px;
+    /*border: solid white 1px;*/
+    margin-top: 20px;
+}
+
+#inicioSect .div2 nav ul li:hover{
+    background-color: rgba(255, 255, 255, 0.231);
+}
+
+#inicioSect .div2 nav ul li a i{
+    margin-right: 20px;
+}
+
+#inicioSect .div2 nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#inicioSect .div2 nav ul .extra-margin{
+    margin-top: 60px;
+}
+
+#inicioSect .div3 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    padding: 15px;
+}
+
+#inicioSect .div3 .column1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+#inicioSect .div3 .column2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+#inicioSect .div3 .column3 { 
+    grid-area: 1 / 3 / 2 / 4; 
+}
+
+.postCont{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: white;
+    width: 1fr;
+}
+
+.post{
+    width: 100%;
+}
+
+.postUser{
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.postText{
+    padding: 30px;
+}
+
+.post + .postText{
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.postUser i{
+    margin-right: 5px;
+}
+
+.postInteract{
+    height: 20px;
+    display: flex; align-items: center; justify-content: right;
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.postInteract i{
+    margin-right: 10px;
+}
+
+#inicioSect footer { 
+    grid-area: 3 / 1 / 4 / 4; 
+    background-color: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(6px);
+    display: flex; align-items: center; justify-content: center;
+}
+
+#inicioSect footer ul{
+    display: flex; align-items: center; justify-content: center;
+} 
+
+
+
+
+

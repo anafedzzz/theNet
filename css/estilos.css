@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+#logInBackground{
+    background-image: url(../img/new-york-city-skyline-paper-wallpaper-28703-1-p.jpg);
+    background-size: cover;
+    height: 100vh; width: 100vw;
+
+}
+
+.blur{
+    backdrop-filter: blur(5px);
+    height: 100vh; width: 100vw;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logInBackground section{
+    border-radius: 20px;
+    height: 400px;
+    width: 460px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.77);
+    -moz-box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.77);
+    box-shadow: 10px 10px 40px -7px rgba(0,0,0,0.77);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logInBanner{
+    background-color: rgb(63,94,251);
+    background-image: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    height: 10px;
+    width: 420px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+
+#logInBanner div p{
+    color: white;
+    font-weight: 600;
+}
+
+#logInBackground section form{
+    width: 300px ; height: 350px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#logInBackground section form input{
+    height: 2rem;
+    border-radius: 15px;
+    border: solid 1px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#logInBackground section form input[type="button"]{
+    height: 3rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63,94,251);
+    background-image: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#logInBackground section form input[type="button"]:active{
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#logInBackground section form input[type="button"]:hover {
+    background-color: rgb(63,94,251);
+    background-image: linear-gradient(90deg, rgb(39, 68, 214) 0%, rgb(223, 35, 72) 100%);
+}
+
+
